@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"meta-exporter/collector"
 	"net/http"
 	"os"
 
+	"github.com/junyoung-jamong/meta-exporter/collector"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
